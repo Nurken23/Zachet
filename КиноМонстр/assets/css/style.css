@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+td{
+padding: 2%;
+border:solid 1px #f4f4f4;
+}
+td img{
+  width: 60px;
+vertical-align: middle;
+}
+.center{
+  text-align: center;
+}
+.rating{
+  font-weight: bold;
+}
+table{
+  width: 100%;
+  border: solid 1px #f4f4f4;
+}
+hr{
+  border: solid 1px #f3f3f3;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+  color: #6cb6ce;
+  width: 60%;
+  padding: 8px; 
+}
+
+input, textarea{
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2; 
+}
+
+h1{
+  font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+}
+h2{font: normal 140% 'century gothic', arial;
+  margin: 0 0 1px 0;
+  padding: 2px 0 15px 0;
+  color: #000;
+}
+a, a:hover{
+  outline: none;
+  text-decoration: underline;
+  color: #6cb6ce;
+}
+ul{
+  margin: 2px 0 22px 0;
+}
+ul li{
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 0;
+  line-height: 1.5em;
+}
+body{
+  font-size: 1.2em;
+  background-color: white;
+  color: #555
+}
+p{
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+
+
+
+
+
+.header {
+  background-color: black;
+  height: 177px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+  font: normal 300% 'century gothic', arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+  padding: 22px 0 0 0;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.logo_text h2 {
+  font-size: 0.9em;
+  padding: 4px 0 0 0;
+  color: #999;
+}
+
+.menubar {
+  width: 900px;
+  height: 46px;
+}
+
+ul.menu {
+  float: right;
+}
+
+ul.menu li {
+  float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+  font: normal 100% 'trebuchet ms', sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu li.selected a {
+  color: #6cb6ce;
+}
+
+ul.menu li a:hover {
+  color: #6cb6ce;
+}
+.site_content{
+  width: 880px;
+  overflow:hidden;
+  margin: 20px auto 0 auto;
+  background-color: white;
+}
+.sidebar_container{
+  float: right;
+  width: 224px;
+}
+.sidebar{
+  float: right;
+  width: 222px;
+  padding: 5%;
+  margin: 0 0 16px 0;
+  border: solid 1px white;
+  border-radius: 5px;
+  background-color: white;
+}
+.btn{
+  background-color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+.sidebar h2{
+  color: #136cb2;
+}
+.lables_passreg_text{
+  font-size: 0.7em;
+  margin: 3% 0 0 2%;
+}
+.sidebar ul{
+  margin-top: 0;
+}
+.sidebar ul li{
+  list-style-type: none;
+  margin:0; 
+}
+.sidebar .rating_sidebar{
+  float: right;
+}
+.content{
+  text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: left;
+}
+.content a{
+  text-decoration: none;
+}
+.films_block{
+  margin-bottom: 5%;
+}
+.films_block img{
+  border-radius: 5px;
+  border: solid 5px #dad7d5d;
+  width: 22%
+}
+.posts .posts_content{
+  font-size: 0.8em;
+}
+.info_film_page{
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.info_film_page .label{
+font-size: 1.2em;
+}
+.info_film_page .value{
+font-size: 1em;
+color: #49945a;
+margin-right: 3%;
+}
+.description_film{
+  margin-bottom: 15%;
+}
+.description_film img{
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5d
+}
+.reviews{
+margin-bottom: 4%;
+font-size:0.9em;
+}
+.reviews .review_name{
+  background-color: black;
+color: white;
+padding: 1%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.send{
+  margin-bottom: 4%;
+}
+.send input[type="text"], textarea{
+border: solid 1px #c3c3c3;
+margin-bottom: 2%;
+}
+.send input[type="text"]{
+width: 98%;
+}
+.send textarea{
+  width: 624px;
+  height: 200px;
+}
+.send input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 3%;
+    border-radius: 5px;
+}
+.reviews .review_text{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.info_film{
+  margin-bottom: 5%;
+  background-color: #f9f9f9;
+  padding: 5%;
+  height: 270px;
+}
+.info_film img{
+float: left;
+margin-right: 2%;
+border-radius: 5px;
+border:solid 5px #dad7d5;
+width: 25%;
+}
+.botton{
+  background-color: black;
+  padding: 2%;
+  border-radius: 5px;
+  float: right;
+  margin-top: 1%;
+  clear: both;
+  font-size: 0.8em;
+}
+.botton a{
+color: white;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  padding: 28px 0 5px 0;
+  text-align: center;
+  background-color: black;
+  color: #6cb6ce;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+.footer a{
+  color:#6cb6ce;
+  text-decoration: none; 
+}
+.footer a:hover{
+  color: white;
+}
+.footer p{
+  padding: 0 0 10px 0;
+}
+
+/*адаптация*/
+@media only screen and (min-width: 320px)
+and (max-width: 568px){
+  .header{
+    min-width: 320px;
+    height: 20%;
+    text-align: center;
+  }
+  .logo{
+    width: 100%;
+
+  }
+  .site_content{
+    width: 100%;
+    
+  }
+  .menubar{
+    width: 100%;
+    height: 100%;
+  }
+  .site_content{
+    width: 100%;
+    text-align: center;
+  }
+  .sidebar{
+    display: none;  
+  }
+  .content{
+    width: 100%;
+    text-align: center;
+  }
+  .footer{
+    display: none;
+  }
+  ul.menu{
+    float: none;
+  }
+  ul.menu li{
+    margin:0;
+    padding: 0;
+    float: none;
+  }
+  .content  h1,h2{
+    font: normal 110% 'century gothic', arial;
+  }
+  .logo  h2{
+    font: normal 100% 'century gothic', arial, sans-serif;
+  }
+  .logo h1{
+    font: normal 235% 'century gothic', arial, sans-serif;
+  }
+  .film_block img{
+    width: 43%;
+  }
+  .info_film{
+    margin-top: 20px;
+  }
+  .filmsx{
+    height: 370px;
+    float: left;
+    text-align: right;
+  }
+  .filmsz{
+    height: 370px;
+    float: left;    
+    text-align: right;
+  }
+  .filmsc{
+    height: 325px;
+    float: left;
+    text-align: right;
+  }
+  .filmscx{
+    height: 350px;
+    float: left;
+    text-align: right;
+  }
+  .center{
+    font-size: 0.7em;
+  }
+  .info_film img{
+  float: top;
+  }
+  .bottonx{
+  background-color: black;
+  padding: 2%;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10%;
+  clear: both;
+  font-size: 0.8em;
+}
+}
